@@ -1,0 +1,48 @@
+{
+  "name": "event",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "long": {
+      "type": "string",
+      "comments": "longitude"
+    },
+    "lat": {
+      "type": "geopoint",
+      "comments": "latitude"
+    },
+    "name": {
+      "type": "string",
+      "comments": "event name"
+    },
+    "genre": {
+      "type": "string",
+      "comments": "event genre"
+    },
+    "playlist": {
+      "type": [
+        "string"
+      ]
+    },
+    "dj_ID": {
+      "type": "string",
+      "id": true,
+      "comments": "djid at current event"
+    },
+    "event_ID": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "index": true,
+      "comments": "Event ID"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
