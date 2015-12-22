@@ -24,6 +24,9 @@
     "city": {
       "type": "string"
     },
+    "email": {
+      "type": "string"
+    },
     "nickname": {
       "type": "string"
     }

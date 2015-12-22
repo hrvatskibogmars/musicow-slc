@@ -15,29 +15,28 @@
       "type": "geopoint",
       "comments": "latitude"
     },
-    "name": {
-      "type": "string",
-      "comments": "event name"
-    },
     "genre": {
       "type": "string",
       "comments": "event genre"
-    },
-    "playlist": {
-      "type": [
-        "string"
-      ]
     },
     "dj_ID": {
       "type": "string",
       "id": true,
       "comments": "djid at current event"
     },
+    "name": {
+      "type": "string",
+      "comments": "event name"
+    },
+    "active": {
+      "type": "string",
+      "comments": ""
+    },
     "event_ID": {
       "type": "string",
       "id": true,
-      "required": true,
-      "index": true,
+      "required": false,
+      "index": false,
       "comments": "Event ID"
     }
   },
