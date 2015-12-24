@@ -7,37 +7,37 @@
     "validateUpsert": true
   },
   "properties": {
-    "long": {
-      "type": "string",
-      "comments": "longitude"
-    },
-    "lat": {
-      "type": "geopoint",
-      "comments": "latitude"
-    },
     "genre": {
       "type": "string",
       "comments": "event genre"
-    },
-    "dj_ID": {
-      "type": "string",
-      "id": true,
-      "comments": "djid at current event"
     },
     "name": {
       "type": "string",
       "comments": "event name"
     },
-    "active": {
+    "status": {
       "type": "string",
       "comments": ""
     },
-    "event_ID": {
+    "longitude": {
+      "type": "string",
+      "comments": "longitude"
+    },
+    "latitude": {
+      "type": "string",
+      "comments": "latitude"
+    },
+    "_ID": {
       "type": "string",
       "id": true,
       "required": false,
       "index": false,
       "comments": "Event ID"
+    },
+    "dj_ID": {
+      "type": "string",
+      "id": false,
+      "comments": "djid at current event"
     }
   },
   "validations": [],
