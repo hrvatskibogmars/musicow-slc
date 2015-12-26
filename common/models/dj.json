@@ -11,9 +11,14 @@
       "type": "string",
       "id": true
     },
-    "name": {
-      "type": "string",
-      "comments": "Real name of dj"
+    "email": {
+      "type": "string"
+    },
+    "nickname": {
+      "type": "string"
+    },
+    "profile_url": {
+      "type": "string"
     },
     "website": {
       "type": "string"
@@ -24,11 +29,9 @@
     "city": {
       "type": "string"
     },
-    "email": {
-      "type": "string"
-    },
-    "nickname": {
-      "type": "string"
+    "name": {
+      "type": "string",
+      "comments": ""
     }
   },
   "validations": [],
