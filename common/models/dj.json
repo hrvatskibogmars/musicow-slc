@@ -11,27 +11,27 @@
       "type": "string",
       "id": true
     },
-    "email": {
+    "website": {
       "type": "string"
     },
-    "nickname": {
+    "twitter_url": {
       "type": "string"
     },
     "profile_url": {
       "type": "string"
     },
-    "website": {
-      "type": "string"
-    },
-    "country": {
-      "type": "string"
-    },
-    "city": {
+    "nickname": {
       "type": "string"
     },
     "name": {
       "type": "string",
       "comments": ""
+    },
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
     }
   },
   "validations": [],
