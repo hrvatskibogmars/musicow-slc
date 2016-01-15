@@ -15,10 +15,6 @@
       "type": "string",
       "comments": "event name"
     },
-    "status": {
-      "type": "string",
-      "comments": ""
-    },
     "longitude": {
       "type": "string",
       "comments": "longitude"
@@ -38,6 +34,10 @@
       "type": "string",
       "id": false,
       "comments": "djid at current event"
+    },
+    "status": {
+      "type": "string",
+      "comments": ""
     }
   },
   "validations": [],

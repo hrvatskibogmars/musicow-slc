@@ -1,5 +1,5 @@
 {
-  "name": "dj",
+  "name": "song",
   "base": "PersistedModel",
   "strict": false,
   "idInjection": false,
@@ -11,26 +11,30 @@
       "type": "string",
       "id": true
     },
-    "website": {
+    "artist": {
       "type": "string"
     },
-    "twitter_url": {
+    "event_id": {
       "type": "string"
     },
     "description": {
       "type": "string"
     },
-    "location": {
+    "upvoted": {
       "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "youtube_link": {
+      "type": "string"
+    },
+    "voted": {
+      "type": [
+        "string"
+      ]
     },
     "name": {
-      "type": "string",
-      "comments": ""
-    },
-    "nickname": {
-      "type": "string"
-    },
-    "profile_url": {
       "type": "string"
     }
   },
