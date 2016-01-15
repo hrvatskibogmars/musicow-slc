@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public":false
   },
   "AccessToken": {
     "dataSource": "db",
@@ -39,6 +40,12 @@
     "$resolved": true
   },
   "dj": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "song": {
     "dataSource": "db",
     "public": true,
     "$promise": {},
