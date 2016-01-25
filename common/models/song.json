@@ -20,9 +20,6 @@
     "description": {
       "type": "string"
     },
-    "upvoted": {
-      "type": "string"
-    },
     "status": {
       "type": "string"
     },
@@ -36,6 +33,9 @@
     },
     "name": {
       "type": "string"
+    },
+    "upvoted": {
+      "type": "number"
     }
   },
   "validations": [],
